@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WooCommerce Delivery Time
  * Plugin URI: https://virtualizate.com.co/
- * Description: Its a Description Short.
+ * Description: Add delivery day and time, opening hours.
  * Version: 0.1.0
  * Author: Grupo Virtualizate. 
  * Author URI: https://virtualizate.com
@@ -24,3 +24,4 @@
 if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly
 }
+
