@@ -1,9 +1,14 @@
 {
     "name": "slrondonm/wc-delivery-time",
-    "type": "wordpress-plugin",
-    "keywords": ["wordpress", "plugin", "boilerplate"],
-    "license": "GPL-2.0-or-later",
     "description": "Add delivery day and time, opening hours.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "keywords": [
+        "wordpress",
+        "plugin",
+        "updater",
+        "install"
+    ],
     "authors": [
         {
             "name": "Sergio Rondón",
@@ -16,7 +21,19 @@
             "email": "programacion@virtualizate.com.co"
         }
     ],
-    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/slrondonm/wc-delivery-time"
+        }
+      ],
+    "support": {
+        "issues": "https://github.com/slrondonm/wc-delivery-time/issues",
+        "source": "https://github.com/slrondonm/wc-delivery-time"
+    },
+    
+    "prefer-stable": true,
+    "minimum-stability": "dev",
     "require": {
         "composer/installers": "^1.9",
         "tgmpa/tgm-plugin-activation": "^2.6"
